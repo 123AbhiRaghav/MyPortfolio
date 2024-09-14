@@ -3,6 +3,7 @@ import Profile from "../asset/profile.png"
 import { FaUserAlt } from "react-icons/fa"
 import { FiMail } from "react-icons/fi"
 import { MdWifiCalling2 } from "react-icons/md"
+import { FaFileAlt } from "react-icons/fa"
 
 const About = () => {
   return (
@@ -46,7 +47,7 @@ const About = () => {
             className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer"
             target="_blank"
            >
-           Resume URL
+          <FaFileAlt size={14}/> Resume URL
            </a>
         </div>
       </div>

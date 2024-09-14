@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
 
                 <h1 className="text-5xl 2xl:text-7xl font-extrabold text-black dark:text-neutral-100 tracking-wider">
-                    Codewave
+                    Abhishek
                 </h1>
 
                 <p className='text-md text-black dark:text-gray-100 mt-5 2xl:mt-10'>
