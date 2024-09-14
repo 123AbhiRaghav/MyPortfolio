@@ -42,6 +42,12 @@ const About = () => {
           <a href="https://wa.me/7204601510" target="_blank" className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer">
            <FaWhatsapp size={14}/> WhatsApp
           </a>
+          <a href="https://drive.google.com/file/d/1ish3_OXtGcgc_bksIQwcdCUS5diqEj7F/view?usp=drive_link"
+            className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer"
+            target="_blank"
+           >
+           Resume URL
+           </a>
         </div>
       </div>
     </div>
