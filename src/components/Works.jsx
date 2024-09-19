@@ -11,7 +11,7 @@ const Works = () => {
         {projects.map((p, index) => (
           <div
             key={index}
-            className='w-[350px] h-[400px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md '
+            className='w-[350px] h-[450px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md '
           >
             <img
               src={p.img}
@@ -19,7 +19,7 @@ const Works = () => {
               className='w-full h-[250px] object-cover rounded-md '
             />
 
-            <div className='w-full h-[150px] bg-white dark:bg-[#04133e] flex flex-col justify-between'>
+            <div className='w-full h-[200px] bg-white dark:bg-[#04133e] flex flex-col justify-between'>
               <div>
                 <h4 className='text-2xl text-black dark:text-white font-semibold py-2 px-1 text-center'>
                   {p.title}
@@ -35,11 +35,36 @@ const Works = () => {
                   href={p.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-center py-2 text-blue-500 hover:text-red-500 mb-10"
+                  className="text-center py-2 text-blue-500 hover:text-red-500"
                 >
                   View Project
                 </a>
               )}
+
+              {/* Two Additional Buttons for Frontend and Backend */}
+              <div className="flex justify-between px-4 mt-2">
+                {p.frontendUrl && (
+                  <a
+                    href={p.frontendUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-center py-2 text-blue-500 hover:text-red-500"
+                  >
+                    Frontend
+                  </a>
+                )}
+
+                {p.backendUrl && (
+                  <a
+                    href={p.backendUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-center py-2 text-blue-500 hover:text-red-500"
+                  >
+                    Backend
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         ))}

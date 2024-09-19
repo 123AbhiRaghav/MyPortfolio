@@ -88,6 +88,8 @@ import MernExpense from "./asset/ProjectExpense.png"
     title: "Cloud-Based Task Manager",
     cat: "Web Design",
     url: "https://github.com/123AbhiRaghav/ProProject",
+    frontendUrl: "https://proproject.netlify.app",
+    backendUrl: "https://proproject-l60z.onrender.com",
     img: TaskManager,
    },
    {
@@ -95,6 +97,8 @@ import MernExpense from "./asset/ProjectExpense.png"
      title: "Mern Intern",
      cat: "Web Desgin",
      url: "https://github.com/123AbhiRaghav/MernIntern",
+     frontendUrl: "https://mernintern1.netlify.app",
+     backendUrl: "https://mernserver-ffmo.onrender.com",
      img: MernIntern
    },
    {
@@ -102,6 +106,8 @@ import MernExpense from "./asset/ProjectExpense.png"
     title: "Mern Book Store",
     cat: "Web Desgin",
     url: "https://github.com/123AbhiRaghav/MernBook",
+    frontendUrl: "https://mernbookclient.netlify.app",
+    backendUrl: "https://bookserver-b2q7.onrender.com",
     img: BookStore
    },
    {
@@ -109,6 +115,8 @@ import MernExpense from "./asset/ProjectExpense.png"
     title: "Mern Expense App",
     cat: "Web Desgin",
     url: "https://github.com/123AbhiRaghav/MernExpense",
+    frontendUrl: "https://mini-expense-app.netlify.app",
+    backendUrl: "https://expenseserver-7clf.onrender.com",
     img: MernExpense
    }
    

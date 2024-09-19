@@ -1,4 +1,4 @@
-import Profile from "../asset/profile.png"
+import Profile from "../asset/profile1.png"
 import Reactjs from "../asset/reactjs.svg"
 import Express from "../asset/express.svg"
 import Nodejs from "../asset/nodejs.svg"

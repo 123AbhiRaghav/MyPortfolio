@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6"
-import Profile from "../asset/profile.png"
+import Profile from "../asset/profile1.png"
 import { FaUserAlt } from "react-icons/fa"
 import { FiMail } from "react-icons/fi"
 import { MdWifiCalling2 } from "react-icons/md"
@@ -43,7 +43,7 @@ const About = () => {
           <a href="https://wa.me/7204601510" target="_blank" className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer">
            <FaWhatsapp size={14}/> WhatsApp
           </a>
-          <a href="https://drive.google.com/file/d/1ish3_OXtGcgc_bksIQwcdCUS5diqEj7F/view?usp=drive_link"
+          <a href="https://drive.google.com/file/d/1ish3_OXtGcgc_bksIQwcdCUS5diqEj7F/view?usp=drivesdk"
             className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer"
             target="_blank"
            >

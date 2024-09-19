@@ -25,7 +25,7 @@ const Footer = () => {
       <div className='flex flex-col gap-10 items-center justify-center pb-20 '>
         <p className='text-white font-semibold tracking-wider'>Social Media</p>
 
-        <div className='flex gap-10 text-white text-2xl mb-10 '>
+        <div className='flex gap-10 text-white text-2xl mb-10 hover:animate-bounce'>
           <BsLinkedin className='hover:scale-110' />
           <BsYoutube  className="hover: scale-110" />
           <BsWhatsapp className="hover:scale-110" />
